@@ -1,4 +1,3 @@
-/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +9,6 @@
     font-family: Arial, sans-serif;
   }
   
-  /* Navbar */
   .navbar {
     background-color: #2e7d32;
     transition: background-color 0.3s ease;
@@ -39,8 +37,7 @@
   .nav-link:hover {
     color: #a5d6a7 !important;
   }
-  
-  /* Background */
+
   .form-background {
     background: url('/assets/participe-background.webp') no-repeat center center/cover;
     min-height: 100vh;
@@ -50,7 +47,6 @@
     align-items: center;
   }
   
-  /* Formulário */
   form {
     background-color: rgba(255, 255, 255, 0.9);
     padding: 30px;
