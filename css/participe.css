@@ -1,0 +1,104 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #2e7d32;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-brand img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+  }
+  
+  .navbar-brand img:hover {
+    transform: scale(1.1);
+  }
+  
+  .nav-link {
+    color: #ffffff !important;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+    border-bottom: 2px solid #81c784;
+  }
+  
+  .nav-link:hover {
+    color: #a5d6a7 !important;
+  }
+  
+  /* Background */
+  .form-background {
+    background: url('/assets/participe-background.webp') no-repeat center center/cover;
+    min-height: 100vh;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Formulário */
+  form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form .form-label {
+    font-weight: bold;
+    color: #2e7d32;
+  }
+  
+  form .form-control, form .form-select, form textarea {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+  }
+  
+  form .form-control:focus, form .form-select:focus, form textarea:focus {
+    border-color: #2e7d32;
+    box-shadow: 0 0 5px rgba(46, 125, 50, 0.5);
+  }
+  
+  .btn-success {
+    background-color: #2e7d32;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  
+  .btn-success:hover {
+    background-color: #1b5e20;
+    transform: scale(1.05);
+  }
+  
+  footer {
+    background-color: #2e7d32;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  @media (max-width: 768px) {
+    form {
+      width: 100%;
+      padding: 20px;
+    }
+  }
+  
