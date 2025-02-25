@@ -14,7 +14,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
       title: `Bem-vindo, ${validUser.name}!`,
       text: 'Redirecionando...',
       showConfirmButton: false,
-      timer: 2000
+      timer: 1000
     }).then(() => {
       window.location.href = "../pages/home.html";
     });
